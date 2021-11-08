@@ -4,14 +4,10 @@
 
 int main()
 {
-    String string = "str";
+    okt::string string;
+   
+    string = "test";
     
-    std::cout<<string<<std::endl;
-
-    std::cout<< string[2] << std::endl;
-
-    String test = "test";
-    string = test;
-    std::cout << string <<std::endl;
+    std::cout<<" hi! " + string + " end" <<std::endl;
     return 0;
 }
