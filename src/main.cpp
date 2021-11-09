@@ -4,10 +4,10 @@
 
 int main()
 {
-    okt::string string;
-   
-    string = "test";
+    okt::string str("1234");
     
-    std::cout<<" hi! " + string + " end" <<std::endl;
+    str += str + "5678";
+    std::cout<< str + "T"+"T"+"TTTTTT";
+    std::cout<<"END";
     return 0;
 }

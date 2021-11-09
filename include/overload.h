@@ -90,7 +90,7 @@ namespace okt
             {
                 temp_string[i] = _string[i];
             }
-            for (std::size_t j = 0; j < str._size; ++i, ++j)
+            for (std::size_t j = 0; j <= str._size; ++i, ++j)
             {
                 temp_string[i] = str._string[j];
             }
